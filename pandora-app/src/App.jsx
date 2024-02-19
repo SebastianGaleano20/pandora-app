@@ -1,14 +1,21 @@
-import './App.css';
-import { products } from "../src/db/products.json"
-import { ProductCard } from './component/ProductCard';
+import { Routes, Route } from "react-router-dom";
+import { Nav } from "./component/Nav/Nav";
+import "./App.css";
+import { Contacto, Nosotros,RRHH,Productos,Inicio } from "./Pages";
 
 function App() {
   return (
-    <>
-      <h1>Pandora App</h1>
-      <ProductCard products={products} />
-    </>
-  )
+    <div>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Inicio/>} />
+        <Route path="/Contacto" element={<Contacto/>} />
+        <Route path="/Nosotros" element={<Nosotros/>} />
+        <Route path="/Productos" element={<Productos/>} />
+        <Route path="/RRHH" element={<RRHH/>} />
+      </Routes>
+    </div>
+  );
 }
 
-export default App
+export default App;
