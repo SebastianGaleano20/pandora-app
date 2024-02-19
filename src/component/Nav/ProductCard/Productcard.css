@@ -35,6 +35,8 @@
 .info-product{
   font-size: 2vh;
   height: 120px;
+  display: block;
+  padding-bottom: 30px;
 }
 .products button{
   margin: 10px;

@@ -17,12 +17,11 @@ nav {
   width: 80px;
 }
 .container-items ul {
+  display: flex;
   list-style: none;
-  text-decoration: none;
 }
 .container-items ul li {
-  display: inline;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 10px;
   margin-left: 50px;
 }
@@ -33,5 +32,20 @@ nav {
 }
 .container-items ul li a:hover {
   color: rgb(255, 255, 255);
-  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .container-items ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+  .container-items ul li {
+    width: 100%;
+    margin: 0;
+  }
+  .container-items ul li a {
+    font-size: 1rem;
+    margin-right: 5px;
+  }
 }
