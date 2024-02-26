@@ -1,8 +1,9 @@
-*{
-    text-align: center;
-    color: #96291b;
-    font-family: "Montserrat", sans-serif;
+* {
+  text-align: center;
+  color: #96291b;
+  font-family: "Montserrat", sans-serif;
 }
-body{
-  background-color: #db9749;
+body {
+  background: rgb(254,242,64);
+  background: linear-gradient(196deg, rgba(254,242,64,1) 0%, rgba(219,49,15,1) 92%);
 }

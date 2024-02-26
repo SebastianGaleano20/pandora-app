@@ -1,15 +1,41 @@
-section{
-    margin: 100px auto;
-    width: 800px;
-    text-align: center;
+
+.cont-formu{
+    margin: 130px auto;
+    max-width: 800px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0, 0.2);
+    border-radius: 10px;
+    font-size: 1em;
+}
+.cont-formu h1{
+    color: white;
+    margin: auto;
+}
+form{
+    max-width: 700px;
+}
+ form label{
+    color: white;
 }
 form label, form input, form textarea{
+    margin: auto;
     display: block;
-    padding: 10px;
-    margin-bottom: 5px;
-    width: 600px;
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 5x;
     border-radius: 10px;
 }
+form button{
+    padding: 8px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+form button:hover{
+    background: rgb(0,0,0, 0.5);
+    color: white;
+    cursor: pointer;
+}
+

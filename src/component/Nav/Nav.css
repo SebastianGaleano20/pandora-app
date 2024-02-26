@@ -14,7 +14,7 @@ nav {
 .container img {
   margin: 3px;
   border-radius: 60%;
-  width: 80px;
+  max-width: 80px;
 }
 .container-items ul {
   display: flex;
@@ -23,7 +23,6 @@ nav {
 .container-items ul li {
   font-size: 1rem;
   padding: 10px;
-  margin-left: 50px;
 }
 .container-items ul li a {
   text-decoration: none;
@@ -34,18 +33,14 @@ nav {
   color: rgb(255, 255, 255);
 }
 
-@media (max-width: 768px) {
-  .container-items ul {
+@media(max-width: 768px) {
+  .container-items ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: start;
+    padding: 0;
+    margin: auto;
   }
   .container-items ul li {
-    width: 100%;
-    margin: 0;
-  }
-  .container-items ul li a {
-    font-size: 1rem;
-    margin-right: 5px;
+    margin: auto; 
   }
 }
