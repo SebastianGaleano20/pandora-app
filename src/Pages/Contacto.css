@@ -1,0 +1,15 @@
+section{
+    margin: 100px auto;
+    width: 800px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form label, form input, form textarea{
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 600px;
+    border-radius: 10px;
+}
