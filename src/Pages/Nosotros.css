@@ -1,0 +1,15 @@
+.container-us{
+    margin-top: 120px;
+    border: 2px solid #e0f005e8;
+    border-radius: 10px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.cont-home, .cont-map,.cont-nets{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #e0f005e8;
+    border-radius: 10px;
+}

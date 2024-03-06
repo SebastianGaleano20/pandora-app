@@ -20,9 +20,11 @@ export function Nav() {
           <li>
             <Link to="/Contacto">Contacto</Link>
           </li>
+          {/* 
           <li>
             <Link to="/RRHH">Trabaja con nosotros</Link>
           </li>
+  */}
         </ul>
       </div>
     </div>
