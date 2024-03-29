@@ -20,6 +20,12 @@ export function Nosotros() {
             ¡Contáctanos hoy mismo y descubre por qué somos el socio ideal para
             tu empresa!
           </p>
+          <h2>Lista de precios</h2>
+          <p>Tenemos una amplia lista de items de la cual podrias probar 
+            cada una de las delicias que producimos en nuestra panificadora. 
+            Tentate a degustar cada producto y poder adquirilos a buen precio y calidad
+            dentro del mercado. 
+          </p>
         </div>
       </div>
       <div className="cont-inf">
@@ -48,7 +54,7 @@ export function Nosotros() {
             Nos ubicamos en el barrio de Villa Crespo, Trabajamos todos los dias
             a excepcion de dias festivos.
           </p>
-          <a href="https://www.google.com.ar/maps/@-34.604366,-58.4579997,20z?entry=ttu">
+          <a target="blink" href="https://www.google.com.ar/maps/@-34.604366,-58.4579997,20z?entry=ttu">
             <img src={ub} alt="ubicacion" />
           </a>
         </div>
