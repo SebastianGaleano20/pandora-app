@@ -34,5 +34,7 @@
     display: grid;
     grid-template-columns: 100%;
     font-size: small;
-  }
+    background-image: url(https://www.comedera.com/wp-content/uploads/2022/02/Croissant-medialunas-cachitos.jpg);
+    background-size: 90%;
 }
+ }
