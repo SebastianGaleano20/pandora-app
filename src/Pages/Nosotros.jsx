@@ -1,12 +1,12 @@
 import "./Nosotros.css";
-import ub from "../assets/ub.png"
+import ub from "../assets/ub.png";
 export function Nosotros() {
   return (
     <div className="container-all">
       <div className="container-us">
         <div className="cont-home">
           <h1>Pandora Panificados</h1>
-          <h4>
+          <p>
             ¡Bienvenidos a nuestra panificadora, el proveedor mayorista de
             confianza para tu negocio! Desde 1990, nos hemos dedicado a la
             producción y distribución de productos panificados de alta calidad a
@@ -19,7 +19,7 @@ export function Nosotros() {
             en nosotros para abastecer tu negocio con el mejor pan artesanal.
             ¡Contáctanos hoy mismo y descubre por qué somos el socio ideal para
             tu empresa!
-          </h4>
+          </p>
         </div>
       </div>
       <div className="cont-inf">
@@ -48,7 +48,9 @@ export function Nosotros() {
             Nos ubicamos en el barrio de Villa Crespo, Trabajamos todos los dias
             a excepcion de dias festivos.
           </p>
-          <a href="https://www.google.com.ar/maps/@-34.604366,-58.4579997,20z?entry=ttu"><img src={ub} alt="ubicacion"/></a>
+          <a href="https://www.google.com.ar/maps/@-34.604366,-58.4579997,20z?entry=ttu">
+            <img src={ub} alt="ubicacion" />
+          </a>
         </div>
       </div>
     </div>

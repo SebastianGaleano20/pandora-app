@@ -1,26 +1,39 @@
 .container-all {
   margin-top: 120px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 .container-us {
   background-image: url(https://assets.elgourmet.com/wp-content/uploads/2023/03/crois_IHdmE0o8gXtjyKN7QxqSuc3WsZnU2i.png);
+  background-size: cover;
 }
-.cont-home{
+.cont-home {
   border-radius: 10px;
   background-color: rgba(200, 202, 202, 0.5);
 }
-.cont-inf, .container-us {
-    margin: 10px;
-    border: 2px solid #e0f005e8;
-    border-radius: 10px;   
-}
-.cont-inf{
-    padding: 15px;
-}
-.cont-red, .cont-ub{
-  margin-top: 10px; 
-}
-.cont-ub img{
-  max-width: 100% ;
+.cont-inf,
+.container-us {
+  margin: 10px;
+  border: 2px solid #e0f005e8;
   border-radius: 10px;
+  font-weight: bold;
+}
+.cont-inf {
+  padding: 15px;
+}
+.cont-red,
+.cont-ub {
+  margin-top: 10px;
+}
+.cont-ub img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-all {
+    display: grid;
+    grid-template-columns: 100%;
+    font-size: small;
+  }
 }
