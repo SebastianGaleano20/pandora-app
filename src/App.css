@@ -6,7 +6,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background: rgb(254,242,64);
-  background: linear-gradient(196deg, rgba(254,242,64,1) 0%, rgba(219,49,15,1) 92%);
-}
